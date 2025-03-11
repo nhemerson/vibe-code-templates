@@ -1,0 +1,32 @@
+# Start Generation Here
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Python dependencies
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# Build artifacts
+frontend/build/
+frontend/public/build/
+frontend/.svelte-kit/
+backend/__pycache__/
+backend/*.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+# End Generation Here
